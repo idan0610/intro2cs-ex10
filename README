@@ -1,0 +1,39 @@
+idan0610
+305681132
+Idan Refaeli
+
+I discussed the exercise with: Amit Tropp, Eyal Cohen
+
+=============================
+= README for ex10
+=============================
+
+usage:
+
+==================
+ = Description: =
+==================
+
+Programs used to scan files and folders and tracking words appearance from
+word list.
+
+=============================
+ = List of submitted files: =
+=============================
+
+1. WordExtractor.py - Iterator used to extract each word of a file
+2. WordTracker.py - Class used to check each word is it is in word list
+3. PathScanner.py - Contains an iterator used to scan files and folders, and
+                    functions used to print all sub files and folders of some
+                    path and to find a file contain all words of word list
+4. README - this file
+
+======================
+ = Special Comments =
+======================
+5. No
+6. The complexity of encounter is O(log(n)), because of the binary search
+7. The complexity of encounter_all is i O(log(n)), because of the "in" search
+   in sorted list
+8. The complexity of reset if O(n), because we create a new list size n
+   for False
